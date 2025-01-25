@@ -25,25 +25,6 @@ This repository contains the code and resources for a project focused on improvi
 
 **Image Embedding Network**: Achieved a test dataset error of 0.0001325494, demonstrating the effectiveness of the compact model in reproducing embeddings.
 
-## Usage
-**Clone the Repository**:
-```
-git clone https://github.com/your-username/image-generation-distillation.git
-cd image-generation-distillation
-```
-**Install Dependencies**:
-```
-pip install -r requirements.txt
-```
-**Run the Training Script**:
-```
-python train_generator.py
-python train_image_embedding.py
-```
-**Generate Images from Text**:
-```
-python generate_image.py --text "A painting of an apple in a fruit bowl" --width 400 --height 400 --model vqgan-imagenet-f16-16384 --seed 42 --max-iterations 500
-```
 ## Contributors
 Jiayu Yuan
 
