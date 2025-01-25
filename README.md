@@ -20,38 +20,31 @@ This repository contains the code and resources for a project focused on improvi
 
 **Evaluation**: Scripts for evaluating model performance using Mean Squared Error (MSE) and Cosine Similarity metrics.
 
-##Results
+## Results
 **Generator Model**: Achieved a test dataset error of 0.0605089515 using the MSE loss function.
 
 **Image Embedding Network**: Achieved a test dataset error of 0.0001325494, demonstrating the effectiveness of the compact model in reproducing embeddings.
 
-##Usage
+## Usage
 **Clone the Repository**:
-
-bash
-Copy
+```
 git clone https://github.com/your-username/image-generation-distillation.git
 cd image-generation-distillation
-
+```
 **Install Dependencies**:
-
-bash
-Copy
+```
 pip install -r requirements.txt
-
+```
 **Run the Training Script**:
-
-bash
-Copy
+```
 python train_generator.py
 python train_image_embedding.py
-
+```
 **Generate Images from Text**:
-
-bash
-Copy
+```
 python generate_image.py --text "A painting of an apple in a fruit bowl" --width 400 --height 400 --model vqgan-imagenet-f16-16384 --seed 42 --max-iterations 500
-##Contributors
+```
+## Contributors
 Jiayu Yuan
 
 Chun-Chih Yang
@@ -62,12 +55,12 @@ Bala Sujith Potineni
 
 Chi-Ao Chen
 
-##References
+## References
 **VQGAN+CLIP**: Open Domain Image Generation and Editing with Natural Language Guidance
 
 **Attention is All You Need**
 
 **Distilling the Knowledge in a Neural Network**
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
